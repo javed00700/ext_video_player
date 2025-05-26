@@ -27,6 +27,8 @@ project.getTasks().withType(JavaCompile){
 apply plugin: 'com.android.library'
 
 android {
+    namespace 'ext.videoplayer' 
+    
     compileSdkVersion 29
 
     defaultConfig {
